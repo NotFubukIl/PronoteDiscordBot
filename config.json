@@ -1,0 +1,14 @@
+{
+    "url": "YOUR_PRONOTE_URL",
+    "FirstGroup": {
+        "username": "USERNAME_OF_A_PERSON_IN_THE_FIRSTGROUP",
+        "password": "PASSWORD_OF_A_PERSON_IN_THE_FIRSTGROUP"
+    },
+    "secondGroup": {
+        "username": "USERNAME_OF_A_PERSON_IN_THE_SECONDGROUP",
+        "password": "PASSWORD_OF_A_PERSON_IN_THE_SECONDGROUP"
+    },
+    "DiscordToken": "YOUR_DISCORD_BOT_TOKEN",
+    "DiscordPrefix": "YOUR_PREFIX",
+    "WhiteListGuild": ["ID_OF_A_WHITELIST_GUILD_WITH_YOUR_BOT_INSIDE"]
+}
