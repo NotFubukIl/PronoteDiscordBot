@@ -224,6 +224,7 @@ process.on("unhandledRejection", async callback => {
             console.log("Erreur Ou Inactivité, Le Bot Redémarre")
             client.destroy()
             await restartPronote()
+            client.login(token)
             return
     }
 })
