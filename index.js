@@ -127,7 +127,7 @@ client.on("message", async message => {
                 })
             })
             if (gr1) message.channel.send(makeEmbed(`**MG: **${marks.averages.student ?? ":x:"} - **MGClasse:** ${marks.averages.studentClass ?? ":x:"}`, _, 1))
-            if (gr2) message.channel.send(makeEmbed(`**MG: **${GR2Marks.averages.student ?? ":x:"} - **MGClasse:** ${GR2Marks.averages.studentClass ?? ":x:"}`, _, 2))
+            if (gr2) message.channel.send(makeEmbed(`**MG: **${GR2Marks.averages.student ?? ":x:"} - **MGClasse:** ${GR2Marks.averages.studentClass ?? ":x:"}`, _2, 2))
             break
 
         case "devoirs":
